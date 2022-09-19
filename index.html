@@ -12,15 +12,27 @@
 <!-- visible content goes here -->
 <h1>DIG 245 CSS Self-Portrait</h1>
 
+<div id="div1" onmousemove="getCursorPosition(event)"></div>
+<div class="cursor-position">X position: <span id="cursor-position-x"></span>. </div>
+<div class="cursor-position">Y position: <span id="cursor-position-y"></span>. </div>
+
+<script>
+function getCursorPosition(event) {
+document.getElementById("cursor-position-x").textContent = event.clientX;
+document.getElementById("cursor-position-y").textContent = event.clientY;
+}
+</script>
+<!-- I was having trouble figuring out how to put this below my picture. I'm not sure the code is right but I couldn't find anything else that would work.-->
+
+<h3><a href="https://www.figma.com/file/jE2pdnOXwHWV3xe27dI9Ox/Self-Portriat?node-id=0%3A1" target=_blank>Figma Drawing</a></h3>
+
 <div class="face"></div>
 
-<div>
 <div class="hair1"></div>
 <div class="hair2"></div>
 <div class="bang1"></div>
 <div class="bang2"></div>
 <div class="bang3"></div>
-</div>
 
 <div class="lefteyebrow"></div>
 <div class="righteyebrow"></div>
@@ -43,6 +55,13 @@
 <div class="mouth"></div>
 <div class="teeth"></div>
 
-<script src="assets/js/main.js"></script>
+<div class="leftblush"></div>
+<div class="rightblush"></div>
+
+<div class="hairextend"></div>
+
+<script>const matches = document.querySelectorAll("div");</script>
+<script>console.log(matches)</script>
+
 </body>
 </html>

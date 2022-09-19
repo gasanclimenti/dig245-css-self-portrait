@@ -4,20 +4,20 @@
 .face {
   width: 425px;
   height: 500px;
-  background: tan;
+  background: #f7d7b0;
   border-radius: 225px;
   position: relative;
-  z-index: 2;
+  z-index: 3;
   left: 175px;
 }
 
 .hair1 {
   width: 280px;
   height: 550px;
-  background: brown;
+  background: #472904;
   border-radius: 200px 0px 0px 100px;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   bottom: 500px;
   left: 115px;
 }
@@ -25,10 +25,10 @@
 .hair2 {
   width: 280px;
   height: 550px;
-  background: brown;
+  background: #472904;
   border-radius: 0px 200px 100px 0px;
   position: relative;
-  z-index: 1;
+  z-index: 2;
   bottom: 1050px;
   left: 380px;
 }
@@ -36,10 +36,10 @@
 .bang1 {
   width: 315px;
   height: 70px;
-  background: brown;
+  background: #472904;
   border-radius: 80px 80px 0px 0px;
   position: relative;
-  z-index: 3;
+  z-index: 4;
   bottom: 1600px;
   left: 230px;
 }
@@ -47,10 +47,10 @@
 .bang2 {
   width: 125px;
   height: 70px;
-  background: brown;
+  background: #472904;
   border-radius: 20px 0px 80px 10px;
   position: relative;
-  z-index: 3;
+  z-index: 5;
   bottom: 1620px;
   left: 190px;
 }
@@ -58,10 +58,10 @@
 .bang3 {
   width: 200px;
   height: 70px;
-  background: brown;
+  background: #472904;
   border-radius: 0px 10px 0px 90px;
   position: relative;
-  z-index: 3;
+  z-index: 4;
   bottom: 1690px;
   left: 390px;
 }
@@ -69,45 +69,49 @@
 .lefteyebrow {
   width: 120px;
   height: 30px;
-  background: brown;
+  background: #472904;
   border-radius: 50px 50px 20px 20px;
   position: relative;
-  z-index: 3;
+  z-index: 4;
   bottom: 1650px;
   left: 435px;
+  transform: rotate(5deg);
 }
 
 .righteyebrow {
   width: 120px;
   height: 30px;
-  background: brown;
+  background: #472904;
   border-radius: 50px 50px 20px 20px;
   position: relative;
-  z-index: 3;
+  z-index: 4;
   bottom: 1680px;
   left: 220px;
+  transform: rotate(-5deg);
 }
 
 .lefteyelid {
   width: 100px;
   height: 40px;
-  background: blue;
+  background: #d4b794;
   border-radius: 30px 30px 4px 4px;
   position: relative;
-  z-index: 3;
-  bottom: 1675px;
+  z-index: 4;
+  bottom: 1670px;
   left: 230px;
+  transform: rotate(-5deg);
 }
 
 .righteyelid {
   width: 100px;
   height: 40px;
-  background: blue;
+  background: #d4b794;
   border-radius: 30px 30px 6px 6px;
   position: relative;
-  z-index: 3;
-  bottom: 1715px;
+  z-index: 4;
+  bottom: 1710px;
   left: 445px;
+  transform: rotate(5deg);
 }
 
 .leftwhite {
@@ -116,9 +120,10 @@
   background: white;
   border-radius: 20px 20px 6px 6px;
   position: relative;
-  z-index: 4;
-  bottom: 1745px;
+  z-index: 5;
+  bottom: 1740px;
   left: 240px;
+  transform: rotate(-5deg);
 }
 
 .rightwhite {
@@ -127,31 +132,34 @@
   background: white;
   border-radius: 20px 20px 6px 6px;
   position: relative;
-  z-index: 4;
-  bottom: 1770px;
+  z-index: 5;
+  bottom: 1765px;
   left: 455px;
+  transform: rotate(5deg);
 }
 
 .leftiris {
   width: 40px;
   height: 25px;
-  background: brown;
+  background: #613704;
   border-radius: 20px 20px 6px 6px;
   position: relative;
-  z-index: 5;
-  bottom: 1795px;
+  z-index: 6;
+  bottom: 1790px;
   left: 260px;
+  transform: rotate(-5deg);
 }
 
 .rightiris {
   width: 40px;
   height: 25px;
-  background: brown;
+  background: #613704;
   border-radius: 20px 20px 6px 6px;
   position: relative;
-  z-index: 5;
-  bottom: 1820px;
+  z-index: 6;
+  bottom: 1815px;
   left: 475px;
+  transform: rotate(5deg);
 }
 
 .leftpupil {
@@ -160,8 +168,8 @@
   background: black;
   border-radius: 50%;
   position: relative;
-  z-index: 5;
-  bottom: 1838px;
+  z-index: 7;
+  bottom: 1833px;
   left: 272px;
 }
 
@@ -171,18 +179,18 @@
   background: black;
   border-radius: 50%;
   position: relative;
-  z-index: 5;
-  bottom: 1853px;
+  z-index: 7;
+  bottom: 1848px;
   left: 487px;
 }
 
 .nose {
   width: 55px;
   height: 95px;
-  background: green;
+  background:#e0c19b;
   border-radius: 50px 5px 30px 30px;
   position: relative;
-  z-index: 4;
+  z-index: 5;
   bottom: 1850px;
   left: 355px;
 }
@@ -190,23 +198,23 @@
 .lips {
   width: 170px;
   height: 80px;
-  background: pink;
+  background: #BD6364;
   border-radius: 5px 5px 40px 40px;
   position: relative;
-  z-index: 4;
-  bottom: 1825px;
+  z-index: 5;
+  bottom: 1815px;
   left: 302.5px;
 }
 
 .mouth {
   width: 120px;
   height: 50px;
-  background: red;
+  background: #8D3A3B;
   border-radius: 5px 5px 40px 40px;
   position: relative;
-  z-index: 4;
-  bottom: 1890px;
-  left: 325px;
+  z-index: 5;
+  bottom: 1880px;
+  left: 328px;
 }
 
 .teeth {
@@ -215,7 +223,47 @@
   background: white;
   border-radius: 3px 3px 20px 20px;
   position: relative;
-  z-index: 5;
-  bottom: 1940px;
-  left: 325px;
+  z-index: 6;
+  bottom: 1930px;
+  left: 328px;
+}
+
+.leftblush {
+  width: 50px;
+  height: 50px;
+  background: #D8A29F;
+  border-radius: 50%;
+  position: relative;
+  z-index: 6;
+  bottom: 2055px;
+  left: 225px;
+}
+
+.rightblush {
+  width: 50px;
+  height: 50px;
+  background: #D8A29F;
+  border-radius: 50%;
+  position: relative;
+  z-index: 6;
+  bottom: 2105px;
+  left: 500px;
+}
+
+.hairextend {
+  width: 545px;
+  height: 425px;
+  background: #472904;
+  border-radius: 200px 200px 100px 100px;
+  position: relative;
+  z-index: 2;
+  bottom: 2200px;
+  left: 115px;
+}
+
+#div1 {
+  height: 50px;
+  width: 98%;
+  position: relative;
+  z-index: 1;
 }
